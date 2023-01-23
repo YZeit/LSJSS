@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="edu.gmu.cs.ecj" type="repository">
+    <properties maven-id="edu.gmu.cs:ecj:22" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/edu/gmu/cs/ecj/22/ecj-22.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

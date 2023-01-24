@@ -26,12 +26,6 @@ jobs:
           gpg-passphrase: MAVEN_GPG_PASSPHRASE
       - name: build artifact
         run: mvn clean package
-      - name: Create release
-        uses: actions/release-action@v3
-        with:
-          allowUpdates: true
-          artifacts: "${{ github.workspace }}/target/*.jar"
-          token: ${{ secrets.GITHUB_TOKEN }}
       - name: Publish to the Maven Central Repository
         run: |
           mvn \

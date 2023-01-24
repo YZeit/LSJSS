@@ -103,6 +103,12 @@
     <description>This is a library fpr the LSJSS project</description>
     <url>http://github.com/yzeit/lsjss</url>
 
+    <scm>
+        <connection>scm:git:git://github.com/yzeit/lsjss.git</connection>
+        <developerConnection>scm:git:ssh://github.com:yzeit/lsjss.git</developerConnection>
+        <url>http://github.com/yzeit/lsjss</url>
+    </scm>
+
     <licenses>
         <license>
             <name>MIT License</name>

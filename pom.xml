@@ -6,7 +6,7 @@
 
     <groupId>io.github.yzeit</groupId>
     <artifactId>lsjss</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
 
     <properties>
         <maven.compiler.source>18</maven.compiler.source>

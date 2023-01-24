@@ -17,8 +17,8 @@
     <distributionManagement>
         <repository>
             <id>github</id>
-            <name>GitHub OWNER Apache Maven Packages</name>
-            <url>https://maven.pkg.github.com/OWNER/REPOSITORY</url>
+            <name>GitHub YZeit Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/YZeit/LSJSS</url>
         </repository>
     </distributionManagement>
 

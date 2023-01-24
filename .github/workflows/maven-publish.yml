@@ -27,7 +27,7 @@ jobs:
       - name: build artifact
         run: mvn clean package
       - name: Create release
-        uses: ncipollo/release-action@v1
+        uses: actions/release-action@v3
         with:
           allowUpdates: true
           artifacts: "${{ github.workspace }}/target/*.jar"

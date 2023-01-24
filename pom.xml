@@ -6,7 +6,7 @@
 
     <groupId>io.github.yzeit</groupId>
     <artifactId>lsjss</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
 
     <properties>
         <maven.compiler.source>18</maven.compiler.source>
@@ -31,6 +31,7 @@
                 <plugin>
                     <groupId>org.sonatype.plugins</groupId>
                     <artifactId>nexus-staging-maven-plugin</artifactId>
+                    <version>1.6.13</version>
                     <extensions>true</extensions>
                     <configuration>
                         <serverId>ossrh</serverId>

@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="LSJSS:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f69e3269-99d1-4c7e-a8f2-0eac785b3018" name="Changes" comment="test change">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/LSJSS_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/ecj_22.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/poi_5_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/poi_ooxml_5_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ecj-22.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/poi-5.2.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/poi-ooxml-5.2.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/LSJSS_jar/LSJSS.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lsjss/LSJSS/evolveRule/LotSizingFunctionsFinal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lsjss/LSJSS/evolveRule/MainLotsizingFinal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lsjss/LSJSS/fixRule/LotSizingFunctionsFixRule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lsjss/LSJSS/fixRule/MachineFixRule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lsjss/LSJSS/fixRule/MainLotsizingFixRule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lsjss/LSJSS/simElements/Job.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lsjss/LSJSS/simElements/Machine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lsjss/LSJSS/simElements/Operation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lsjss/functions/ADSHC.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lsjss/functions/ADSHCE.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lsjss/functions/AHC.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lsjss/functions/APD.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lsjss/functions/APDAI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lsjss/functions/APDK.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lsjss/functions/APDR.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lsjss/functions/APTQ.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lsjss/functions/ATCC.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lsjss/functions/ATCE.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lsjss/functions/Add.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lsjss/functions/BSV.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lsjss/functions/C.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lsjss/functions/CF.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lsjss/functions/CLS.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lsjss/functions/CP.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lsjss/functions/CT.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lsjss/functions/CU.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lsjss/functions/DD.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lsjss/functions/Div.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lsjss/functions/EC.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lsjss/functions/ES.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lsjss/functions/ESC.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lsjss/functions/FP.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lsjss/functions/HC.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lsjss/functions/HCC.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lsjss/functions/Ifte.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lsjss/functions/LPH.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lsjss/functions/Max.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lsjss/functions/Min.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lsjss/functions/Mul.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lsjss/functions/NI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lsjss/functions/NJQ.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lsjss/functions/NPRC.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lsjss/functions/NPRE.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lsjss/functions/PLE.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lsjss/functions/PT.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lsjss/functions/PTN.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lsjss/functions/RC.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lsjss/functions/RCC.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lsjss/functions/RNO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lsjss/functions/RPT.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lsjss/functions/RT.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lsjss/functions/RTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lsjss/functions/SC.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lsjss/functions/SHC.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lsjss/functions/SHCN.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lsjss/functions/SL.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lsjss/functions/Sub.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lsjss/functions/TBO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lsjss/functions/WINQ.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lsjss/functions/WT.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lsjss/main/DoubleData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lsjss/main/LSJSS_GPHH.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lsjss/main/Run.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lsjss/problem/CoevolutionState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lsjss/problem/CoevolutionStatistics.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lsjss/problem/CooperativeCoevolutionaryEvaluator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lsjss/problem/Instance.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lsjss/problem/InstanceSetFull.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lsjss/rule/GPProblemCOEV.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lsjss/util/ExcelReader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/LSJSS-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lsjss/LSJSS/evolveRule/LotSizingFunctionsFinal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lsjss/LSJSS/evolveRule/MainLotsizingFinal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lsjss/LSJSS/fixRule/LotSizingFunctionsFixRule.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lsjss/LSJSS/fixRule/MachineFixRule.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lsjss/LSJSS/fixRule/MainLotsizingFixRule.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lsjss/LSJSS/simElements/Job.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lsjss/LSJSS/simElements/Machine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lsjss/LSJSS/simElements/Operation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lsjss/functions/ADSHC.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lsjss/functions/ADSHCE.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lsjss/functions/AHC.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lsjss/functions/APD.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lsjss/functions/APDAI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lsjss/functions/APDK.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lsjss/functions/APDR.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lsjss/functions/APTQ.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lsjss/functions/ATCC.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lsjss/functions/ATCE.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lsjss/functions/Add.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lsjss/functions/BSV.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lsjss/functions/C.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lsjss/functions/CF.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lsjss/functions/CLS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lsjss/functions/CP.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lsjss/functions/CT.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lsjss/functions/CU.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lsjss/functions/DD.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lsjss/functions/Div.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lsjss/functions/EC.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lsjss/functions/ES.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lsjss/functions/ESC.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lsjss/functions/FP.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lsjss/functions/HC.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lsjss/functions/HCC.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lsjss/functions/Ifte.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lsjss/functions/LPH.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lsjss/functions/Max.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lsjss/functions/Min.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lsjss/functions/Mul.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lsjss/functions/NI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lsjss/functions/NJQ.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lsjss/functions/NPRC.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lsjss/functions/NPRE.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lsjss/functions/PLE.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lsjss/functions/PT.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lsjss/functions/PTN.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lsjss/functions/RC.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lsjss/functions/RCC.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lsjss/functions/RNO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lsjss/functions/RPT.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lsjss/functions/RT.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lsjss/functions/RTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lsjss/functions/SC.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lsjss/functions/SHC.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lsjss/functions/SHCN.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lsjss/functions/SL.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lsjss/functions/Sub.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lsjss/functions/TBO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lsjss/functions/WINQ.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lsjss/functions/WT.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lsjss/main/DoubleData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lsjss/main/LSJSS_GPHH.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lsjss/main/Run.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lsjss/problem/CoevolutionState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lsjss/problem/CoevolutionStatistics.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lsjss/problem/CooperativeCoevolutionaryEvaluator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lsjss/problem/EliteComparator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lsjss/problem/Instance.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lsjss/problem/InstanceSetFull.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lsjss/rule/GPProblemCOEV.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lsjss/util/ExcelReader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Kjzz0JO77H7PRMsgY5BsAXFaMg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "jdk.selected.JAVA_MODULE": "18",
+    "last_opened_file_path": "D:/IntelliJProjects/LSJSS_GPHH_maven/LSJSS/lib/poi-ooxml-5.2.3.jar",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IntelliJProjects\LSJSS_GPHH_maven\LSJSS\src\main\java" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="LSJSS [clean,verify]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="verify" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f69e3269-99d1-4c7e-a8f2-0eac785b3018" name="Changes" comment="" />
+      <created>1674503040868</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1674503040868</updated>
+    </task>
+    <task id="LOCAL-00001" summary="test">
+      <created>1674508553163</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1674508553163</updated>
+    </task>
+    <task id="LOCAL-00002" summary="update pom">
+      <created>1674551328829</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1674551328829</updated>
+    </task>
+    <task id="LOCAL-00003" summary="update pom">
+      <created>1674552535325</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1674552535326</updated>
+    </task>
+    <task id="LOCAL-00004" summary="test change">
+      <created>1674554618229</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1674554618229</updated>
+    </task>
+    <task id="LOCAL-00005" summary="test change">
+      <created>1674555073342</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1674555073342</updated>
+    </task>
+    <task id="LOCAL-00006" summary="test change">
+      <created>1674555660669</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1674555660669</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="test" />
+    <MESSAGE value="update pom" />
+    <MESSAGE value="test change" />
+    <option name="LAST_COMMIT_MESSAGE" value="test change" />
+  </component>
+</project>

@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="ecj-22">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/lib/ecj-22.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

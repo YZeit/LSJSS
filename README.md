@@ -1,2 +1,2 @@
 # LSJSS
-This is a repository for the LSJSS procect by YZ (test)
+This is a repository for the LSJSS project

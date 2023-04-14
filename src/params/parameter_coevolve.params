@@ -1,0 +1,148 @@
+# Copyright 2006 by Sean Luke and George Mason University
+# Licensed under the Academic Free License version 3.0
+# See the file "LICENSE" for more information
+
+parent.0 = koza_coevolve.params
+
+# the next four items are already defined in koza.params, but we
+# put them here to be clear.
+
+# We have one function set, of class GPFunctionSet
+gp.fs.size = 2
+gp.fs.0 = ec.gp.GPFunctionSet
+# We'll call the function set "f0".
+gp.fs.0.name = f0
+gp.fs.1 = ec.gp.GPFunctionSet
+# We'll call the function set "f1".
+gp.fs.1.name = f1
+
+# We have 20 functions in the function set for the JSS.  They are:
+gp.fs.0.size = 20
+gp.fs.0.func.0 = functions.Add
+gp.fs.0.func.0.nc = nc2
+gp.fs.0.func.1 = functions.APTQ
+gp.fs.0.func.1.nc = nc0
+gp.fs.0.func.2 = functions.CT
+gp.fs.0.func.2.nc = nc0
+gp.fs.0.func.3 = functions.DD
+gp.fs.0.func.3.nc = nc0
+gp.fs.0.func.4 = functions.Mul
+gp.fs.0.func.4.nc = nc2
+gp.fs.0.func.5 = functions.NJQ
+gp.fs.0.func.5.nc = nc0
+gp.fs.0.func.6 = functions.PT
+gp.fs.0.func.6.nc = nc0
+gp.fs.0.func.7 = functions.PTN
+gp.fs.0.func.7.nc = nc0
+gp.fs.0.func.8 = functions.RNO
+gp.fs.0.func.8.nc = nc0
+gp.fs.0.func.9 = functions.RPT
+gp.fs.0.func.9.nc = nc0
+gp.fs.0.func.10 = functions.RT
+gp.fs.0.func.10.nc = nc0
+gp.fs.0.func.11 = functions.RTO
+gp.fs.0.func.11.nc = nc0
+gp.fs.0.func.12 = functions.SL
+gp.fs.0.func.12.nc = nc0
+gp.fs.0.func.13 = functions.Sub
+gp.fs.0.func.13.nc = nc2
+gp.fs.0.func.14 = functions.WINQ
+gp.fs.0.func.14.nc = nc0
+gp.fs.0.func.15 = functions.WT
+gp.fs.0.func.15.nc = nc0
+gp.fs.0.func.16 = functions.Div
+gp.fs.0.func.16.nc = nc2
+gp.fs.0.func.17 = functions.Min
+gp.fs.0.func.17.nc = nc2
+gp.fs.0.func.18 = functions.Max
+gp.fs.0.func.18.nc = nc2
+gp.fs.0.func.19 = functions.Ifte
+gp.fs.0.func.19.nc = nc3
+
+# We have 39 functions in the function set for the JSS.  They are:
+gp.fs.1.size = 31
+gp.fs.1.func.0 = functions.Add
+gp.fs.1.func.0.nc = nc2
+gp.fs.1.func.1 = functions.Mul
+gp.fs.1.func.1.nc = nc2
+gp.fs.1.func.2 = functions.Sub
+gp.fs.1.func.2.nc = nc2
+gp.fs.1.func.3 = functions.AHC
+gp.fs.1.func.3.nc = nc0
+gp.fs.1.func.4 = functions.BSV
+gp.fs.1.func.4.nc = nc0
+gp.fs.1.func.5 = functions.SC
+gp.fs.1.func.5.nc = nc0
+gp.fs.1.func.6 = functions.CF
+gp.fs.1.func.6.nc = nc0
+gp.fs.1.func.7 = functions.NPRC
+gp.fs.1.func.7.nc = nc0
+gp.fs.1.func.8 = functions.HCC
+gp.fs.1.func.8.nc = nc0
+gp.fs.1.func.9 = functions.NPRE
+gp.fs.1.func.9.nc = nc0
+gp.fs.1.func.10 = functions.CU
+gp.fs.1.func.10.nc = nc0
+gp.fs.1.func.11 = functions.ADSHC
+gp.fs.1.func.11.nc = nc0
+gp.fs.1.func.12 = functions.APDR
+gp.fs.1.func.12.nc = nc0
+gp.fs.1.func.13 = functions.NI
+gp.fs.1.func.13.nc = nc0
+gp.fs.1.func.14 = functions.LPH
+gp.fs.1.func.14.nc = nc0
+gp.fs.1.func.15 = functions.CP
+gp.fs.1.func.15.nc = nc0
+gp.fs.1.func.16 = functions.HC
+gp.fs.1.func.16.nc = nc0
+gp.fs.1.func.17 = functions.APD
+gp.fs.1.func.17.nc = nc0
+gp.fs.1.func.18 = functions.APDK
+gp.fs.1.func.18.nc = nc0
+gp.fs.1.func.19 = functions.TBO
+gp.fs.1.func.19.nc = nc0
+gp.fs.1.func.20 = functions.SHC
+gp.fs.1.func.20.nc = nc0
+gp.fs.1.func.21 = functions.SHCN
+gp.fs.1.func.21.nc = nc0
+gp.fs.1.func.22 = functions.C
+gp.fs.1.func.22.nc = nc0
+gp.fs.1.func.23 = functions.CLS
+gp.fs.1.func.23.nc = nc0
+gp.fs.1.func.24 = functions.PLE
+gp.fs.1.func.24.nc = nc0
+gp.fs.1.func.25 = functions.RCC
+gp.fs.1.func.25.nc = nc0
+gp.fs.1.func.26 = functions.ADSHCE
+gp.fs.1.func.26.nc = nc0
+gp.fs.1.func.27 = functions.Div
+gp.fs.1.func.27.nc = nc2
+gp.fs.1.func.28 = functions.Min
+gp.fs.1.func.28.nc = nc2
+gp.fs.1.func.29 = functions.Max
+gp.fs.1.func.29.nc = nc2
+gp.fs.1.func.30 = functions.Ifte
+gp.fs.1.func.30.nc = nc3
+
+
+#gp.fs.1.func.8 = functions.ATCC
+#gp.fs.1.func.8.nc = nc0
+#gp.fs.1.func.33 = functions.FP
+#gp.fs.1.func.33.nc = nc0
+#gp.fs.1.func.29 = functions.ATCE
+#gp.fs.1.func.29.nc = nc0
+#gp.fs.1.func.30 = functions.APDAI
+#gp.fs.1.func.30.nc = nc0
+#gp.fs.1.func.31 = functions.RC
+#gp.fs.1.func.31.nc = nc0
+#gp.fs.1.func.23 = functions.EC
+#gp.fs.1.func.23.nc = nc0
+#gp.fs.1.func.24 = functions.ES
+#gp.fs.1.func.24.nc = nc0
+#gp.fs.1.func.25 = functions.ESC
+#gp.fs.1.func.25.nc = nc0
+
+
+
+eval.problem = main.LSJSS_GPHH
+eval.problem.data = main.DoubleData

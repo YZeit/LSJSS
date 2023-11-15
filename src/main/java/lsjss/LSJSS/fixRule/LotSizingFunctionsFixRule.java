@@ -315,7 +315,7 @@ public class LotSizingFunctionsFixRule {
                     double currentAHC = (demands[i][l] * holdingCosts[i]) * (l-currentPeriod);
                     double currentCP = currentPeriod;
                     double currentHCC = (productionQuantities[i][currentPeriod] - demands[i][currentPeriod]) * holdingCosts[i];
-                    double currentNPRE = l - currentPeriod;
+                    double currentNPRE = coveragePeriod+1;
                     double currentADSHC = (currentBSV*setupCosts[i] - currentHCC);
                     double currentADSHCE = (setupCosts[i] - currentHCC - currentAHC);
                     double PDR = 0;

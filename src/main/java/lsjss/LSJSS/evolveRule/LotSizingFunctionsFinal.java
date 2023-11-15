@@ -322,7 +322,7 @@ public class LotSizingFunctionsFinal {
                     ((LSJSS_GPHH)problem).currentAHC = (demands[i][l] * holdingCosts[i]) * (l-currentPeriod);
                     ((LSJSS_GPHH)problem).currentCP = currentPeriod;
                     ((LSJSS_GPHH)problem).currentHCC = (productionQuantities[i][currentPeriod] - demands[i][currentPeriod]) * holdingCosts[i];
-                    ((LSJSS_GPHH)problem).currentNPRE = l - currentPeriod;
+                    ((LSJSS_GPHH)problem).currentNPRE = coveragePeriod+1;
                     ((LSJSS_GPHH)problem).currentADSHC = (((LSJSS_GPHH)problem).currentBSV*setupCosts[i] - ((LSJSS_GPHH)problem).currentHCC);
                     ((LSJSS_GPHH)problem).currentADSHCE = (setupCosts[i] - ((LSJSS_GPHH)problem).currentHCC - ((LSJSS_GPHH)problem).currentAHC);
                     double PDR = 0;

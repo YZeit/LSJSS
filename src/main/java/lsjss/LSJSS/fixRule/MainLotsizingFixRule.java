@@ -9,37 +9,6 @@ import java.util.List;
 import java.util.Random;
 
 public class MainLotsizingFixRule {
-    public static int getRandomNumber(int min, int max, Random randomobj) {
-        return (int) ((randomobj.nextDouble(1) * (max - min)) + min);
-    }
-
-    public static List<Integer> makeSequence(int begin, int end) {
-        List<Integer> ret = new ArrayList<>(end - begin + 1);
-        for (int i=begin; i<=end; i++) {
-            ret.add(i);
-        }
-        return ret;
-    }
-
-    public static List<Integer> getRandomElement(List<Integer> list, int totalItems, Random randomobj)
-    {
-        // create a temporary list for storing
-        // selected element
-        List<Integer> newList = new ArrayList<>();
-        for (int i = 0; i < totalItems; i++) {
-
-            // take a random index between 0 to size
-            // of given List
-            int randomIndex = randomobj.nextInt(list.size());
-
-            // add element in temporary list
-            newList.add(list.get(randomIndex));
-
-            // Remove selected element from original list
-            list.remove(randomIndex);
-        }
-        return newList;
-    }
 
     public static double run(Instance currentInstance) throws IOException, InvalidFormatException {
 

@@ -289,17 +289,18 @@ public class LotSizingFunctionsFixRule {
         double[][] CSI = new double[numberProducts][numberPeriods];
         for (int l=currentPeriod+1; l<numberPeriods; l++){
             for (int i=0; i<numberProducts; i++){
-                //System.out.println("product: " + i);
-                if ((demands[i][l]-inventory[i][l-1])>0){   // not needed in our case since we assume demand for each product in every period
-                    // calculate coverage period
-                    int x = productionQuantities[i][currentPeriod];
+                int x = productionQuantities[i][currentPeriod];
+                int previousInventory = 0;
+                if (x > 0) {
+                    if (currentPeriod>0){
+                        previousInventory = inventory[i][currentPeriod-1];
+                    }
                     int coveragePeriod = 1;
-                    int y = currentPeriod;
-                    while (x > 0){
-                        x = x-demands[i][y];
-                        if (y > currentPeriod){
-                            coveragePeriod+=1;
-                        }
+                    int currentInventory = previousInventory - demands[i][currentPeriod] + productionQuantities[i][currentPeriod];
+                    int y = currentPeriod+1;
+                    while (currentInventory > 0) {
+                        coveragePeriod += 1;
+                        currentInventory = currentInventory - demands[i][y];
                         y += 1;
                     }
                     // calculate CSI

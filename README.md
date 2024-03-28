@@ -1,4 +1,4 @@
-# CC-GP-HH for LSJSS 
+# LSJSS 
 This repository includes the code related to the paper:
 A cooperative coevolutionary hyper-heuristic approach to solve lot-sizing and job shop scheduling problems using genetic programming
 https://doi.org/10.1080/00207543.2023.2301044

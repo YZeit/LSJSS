@@ -11,4 +11,9 @@ Lot-sizing and scheduling in a job shop environment is a fundamental problem tha
 # Keywords
 `Lot-sizing` `job shop scheduling` `greedy heuristic` `hyper-heuristic` `genetic programming` `cooperative coevolution`
 
+# Glossary
+- `src/instances` - This folder contains the training and validation instances
+- `src/params` - This folder contains the parameter files including the GP parameters required for ECJ
+- `src/main/java/lsjss` - This folder contains the main java files for the CCGPHH method
+
 
